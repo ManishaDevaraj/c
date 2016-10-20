@@ -7,6 +7,6 @@ scanf("%d",&n);
 for(i=1;i<=10;i++)
 {
 mul=n*i;
-printf("The %d tables is %d",n,sum);
+printf("The %d tables is %d",n,\n sum);
 }
 }
