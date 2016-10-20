@@ -3,20 +3,20 @@
 void main()
 {
    int i, j, k;
-   char str[100];
-   char rev[100];
+   char s[100];
+   char r[100];
    printf("Enter a string\t");
-   scanf("%s", str);
+   scanf("%s", s);
    printf("The original string is %s", str);
-   for(i = 0; str[i] != '\0'; i++);
+   for(i = 0; s[i] != '\0'; i++);
    {
       k = i-1;
    }
    for(j = 0; j <= i-1; j++)
    {
-      rev[j] = str[k];
+      r[j] = s[k];
       k--;
    }
-   printf("The reverse string is %s", rev);
+   printf("The reverse string is %s", r);
    getch();
 }
